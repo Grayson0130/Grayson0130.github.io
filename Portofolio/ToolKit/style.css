@@ -1,0 +1,8 @@
+#content {
+  background-color: aquamarine;
+}
+
+#content .feature p {
+  font-size: 30px;
+  color: cadetblue;
+}

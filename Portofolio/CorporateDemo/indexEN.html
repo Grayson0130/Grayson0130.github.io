@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="libs/scrollReveal/scrollreveal.min.js"></script>
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="libs/glide/glide.core.min.css" />
+    <link rel="stylesheet" href="libs/glide/glide.theme.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>TechCloud - Creative Web service</title>
+  </head>
+  <body>
+    <!-- head -->
+    <header class="open">
+      <div class="logo">TechCloud</div>
+      <!-- Navigation -->
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about-us">About</a>
+        <a href="#showcases">Cases</a>
+        <a href="#service">Service</a>
+        <a href="#team-intro">Team</a>
+        <a href="#company-activities">Activities</a>
+        <a href="indexCN.html">中文</a>
+      </nav>
+      <!-- Folding navigation buttons -->
+      <div class="burger">
+        <div class="burger-line1"></div>
+        <div class="burger-line2"></div>
+        <div class="burger-line3"></div>
+      </div>
+    </header>
+    <!-- homepage,glide JS -->
+    <div class="glide" id="home">
+      <!-- Rail -->
+      <div class="glide__track" data-glide-el="track">
+        <!-- Container -->
+        <div class="glide__slides">
+          <!-- Components -->
+          <div class="glide__slide">
+            <!-- Title -->
+            <div class="slide-caption">
+              <h1>Embellish life with innovation and integrate technology into ideals.</h1>
+              <h3>
+                A large platform for technological innovation, a new engine for smart life. 
+                Relying on scientific and technological progress to promote economic development by leaps and bounds. 
+                Embellish life with innovation and integrate technology into ideals.
+              </h3>
+              <!-- More -->
+              <button class="explore-btn">More</button>
+            </div>
+            <!-- Backdrop -->
+            <div class="backdrop"></div>
+            <!-- img -->
+            <img src="images/people-in-couch-1024248.jpg" alt="" />
+          </div>
+          <!-- Sencond Slide -->
+          <div class="glide__slide">
+            <div class="slide-caption left">
+              <h1>Technology changes the world</h1>
+              <h3>
+                Based on scientific development, focus on independent innovation. 
+                Accelerate scientific and technological progress and provide strong support for the city's economic and social development. 
+                Concentrate scientific and technological creativity and achieve innovative dreams.
+              </h3>
+              <button class="explore-btn">More</button>
+            </div>
+            <div class="backdrop"></div>
+            <!-- video -->
+            <video src="videos/working-man.mp4" muted autoplay loop></video>
+          </div>
+        </div>
+      </div>
+      <!-- glide control button -->
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="&lt;">
+          &lt;
+        </button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir="&gt;">
+          &gt;
+        </button>
+      </div>
+      <!-- glide bullets -->
+      <div class="glide__bullets" data-glide-el="controls[nav]">
+        <button class="glide__bullet" data-glide-dir="=0"></button>
+        <button class="glide__bullet" data-glide-dir="=1"></button>
+      </div>
+    </div>
+     <!-- content containter -->
+     <div class="content-wrapper">
+        <!-- about,scroll with id -->
+        <section id="about-us" class="about-us">
+          <!-- title -->
+          <h2 class="title1">About us</h2>
+          <!-- description -->
+          <p class="intro">
+            Internet companies are more than just corporate organizations that provide domain name registration, 
+            space rental, website development, website construction and network marketing activities.
+          </p>
+          <!-- features container -->
+          <div class="features">
+            <!-- feature -->
+            <div class="feature">
+              <!--  icon -->
+              <i class="fas fa-lightbulb"></i>
+              <!--  title -->
+              <h4 class="feature-title">Brand Design</h4>
+              <!-- content -->
+              <p class="feature-content">
+                Design a unique vision for the company and perfectly present the corporate values
+              </p>
+            </div>
+            <div class="feature">
+              <i class="fas fa-chart-line"></i>
+              <h4 class="feature-title">Integrated Marketing</h4>
+              <p class="feature-content">
+                Through market entry analysis, formulation of network marketing strategy, network marketing implementation
+              </p>
+            </div>
+            <div class="feature">
+              <i class="fas fa-shopping-cart"></i>
+              <h4 class="feature-title">E-commmerce</h4>
+              <p class="feature-content">
+                According to the needs of the company, set up different sales channels through online direct sales
+              </p>
+            </div>
+            <div class="feature">
+              <i class="fas fa-desktop"></i>
+              <h4 class="feature-title">Web Design</h4>
+              <p class="feature-content">
+                Through website construction, intelligent website construction, domain name hosting, corporate mailbox
+              </p>
+            </div>
+            <div class="feature">
+              <i class="fas fa-tachometer-alt"></i>
+              <h4 class="feature-title">SEO</h4>
+              <p class="feature-content">
+                Website promotion refers to the promotion of the website to major domestic websites and search engines
+              </p>
+            </div>
+            <div class="feature">
+              <i class="fas fa-server"></i>
+              <h4 class="feature-title">Website Setup</h4>
+              <p class="feature-content">
+                Show the website to the world by binding the domain name and server
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- showcases -->
+        <!-- section-bg grey -->
+        <section id="showcases" class="showcases section-bg">
+          <h2 class="title1">Cases</h2>
+          <!-- filter button -->
+          <div class="filter-btns">
+            <button class="filter-btn active" data-filter="*">
+              All
+            </button>
+            <!-- class selector-->
+            <button class="filter-btn" data-filter=".web">
+              WEB
+            </button>
+            <button class="filter-btn" data-filter=".mobile">
+              Mobile
+            </button>
+            <button class="filter-btn" data-filter=".science">
+              Science
+            </button>
+          </div>
+          <!-- cases -->
+          <div class="cases">
+            <!-- case-item -->
+            <div class="case-item web science">
+              <img
+                src="images/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107.jpg"
+                alt=""
+              />
+            </div>
+            <div class="case-item web science">
+              <img src="images/photo-of-imac-near-macbook-1029757.jpg" alt="" />
+            </div>
+            <div class="case-item web">
+              <img src="images/apple-laptop-notebook-office-39284.jpg" alt="" />
+            </div>
+            <div class="case-item web">
+              <img
+                src="images/apple-apple-device-design-desk-285814.jpg"
+                alt=""
+              />
+            </div>
+            <div class="case-item mobile">
+              <img
+                src="images/person-using-black-and-white-smartphone-and-holding-blue-230544.jpg"
+                alt=""
+              />
+            </div>
+            <div class="case-item science">
+              <img src="images/person-holding-a-smartphone-892757.jpg" alt="" />
+            </div>
+            <div class="case-item mobile web science">
+              <img src="images/blur-close-up-code-computer-546819.jpg" alt="" />
+            </div>
+            <div class="case-item mobile ">
+              <img
+                src="images/bokeh-photography-of-person-holding-turned-on-iphone-1440727.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+          <!-- service -->
+      <section id="service" class="service">
+        <h2 class="title1">Service</h2>
+        <p class="intro">
+          Network integrated company, providing services including basic network services (such as domain names, hosting, mailboxes)
+           and network value-added services (such as website construction and promotion, website optimization)
+        </p>
+        <!-- About us -->
+        <div class="services">
+          <div class="service-item">
+            <i class="fas fa-comments"></i>
+            <h2 class="service-title">Demand Communication</h2>
+            <p class="service-content">
+              The client puts forward the basic requirements for website construction, including design requirements and functional requirements
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-gavel"></i>
+            <h2 class="service-title">Project Evaluation</h2>
+            <p class="service-content">
+              Evaluate according to the needs of customers and estimate the corresponding time and cost
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-file-signature"></i>
+            <h2 class="service-title">Sign Contract</h2>
+            <p class="service-content">
+              After the two parties confirm the cost, construction period, and cooperation requirements, the two parties jointly sign a contract
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-user"></i>
+            <h2 class="service-title">Proposal</h2>
+            <p class="service-content">
+              Complete the DEMO design of the first draft of the website, including the home page style and the inner page style page
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h2 class="service-title">Production</h2>
+            <p class="service-content">
+              Complete the design of all pages, carry out program development and page integration before and after the background
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-user-check"></i>
+            <h2 class="service-title">Acceptance</h2>
+            <p class="service-content">
+              Carry out website acceptance according to the terms of the contract, and sign the website acceptance confirmation form
+            </p>
+          </div>
+        </div>
+      </section>
+       <!-- Team introduction -->
+       <section id="team-intro" class="team-intro section-bg">
+        <h2 class="title1">Our Team</h2>
+        <!-- Container -->
+        <div class="team-members">
+          <!-- member -->
+          <div class="team-member">
+            <!-- img -->
+            <div class="profile-image">
+              <img src="images/man-wearing-black-suit-2955376.jpg" alt="" />
+            </div>
+            <!-- name -->
+            <h4 class="name">Ecol</h4>
+            <!-- position -->
+            <p class="position">Front-End Developer</p>
+            <!-- social-links -->
+            <ul class="social-links">
+              <li>
+                <a href="#"><i class="fab fa-weixin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="team-member">
+            <div class="profile-image">
+              <img
+                src="images/smiling-woman-wearing-black-sweater-1587009.jpg"
+                alt=""
+              />
+            </div>
+            <h4 class="name">Amy</h4>
+            <p class="position">UI Designer</p>
+            <ul class="social-links">
+              <li>
+                <a href="#"><i class="fab fa-weixin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="team-member">
+            <div class="profile-image">
+              <img
+                src="images/selective-focus-photograph-of-man-wearing-gray-suit-jacket-1138903.jpg"
+                alt=""
+              />
+            </div>
+            <h4 class="name">Bob</h4>
+            <p class="position">Back-End Developer</p>
+            <ul class="social-links">
+              <li>
+                <a href="#"><i class="fab fa-weixin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="images/business-woman-2697954_1920.jpg" alt="" />
+            </div>
+            <h4 class="name">Jenny</h4>
+            <p class="position">Market Specialist</p>
+            <ul class="social-links">
+              <li>
+                <a href="#"><i class="fab fa-weixin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+       <!-- Data Section -->
+       <section id="data-section" class="data-section">
+        <!-- Single Data  -->
+        <div class="data-piece">
+          <!-- icon -->
+          <i class="fas fa-code"></i>
+          <!-- number -->
+          <div class="num">156</div>
+          <!-- unit -->
+          <div class="data-desc">Codes</div>
+        </div>
+        <div class="data-piece">
+          <i class="fas fa-award"></i>
+          <div class="num">288</div>
+          <div class="data-desc">Awards</div>
+        </div>
+        <div class="data-piece">
+          <i class="fas fa-laugh-wink"></i>
+          <div class="num">1588</div>
+          <div class="data-desc">Customers</div>
+        </div>
+        <div class="data-piece">
+          <i class="fas fa-folder"></i>
+          <div class="num">200</div>
+          <div class="data-desc">Projects</div>
+        </div>
+      </section>
+       <!-- activities -->
+      <section id="company-activities" class="company-activities">
+        <h2 class="title1">Activities</h2>
+        <!-- Container -->
+        <div class="activities">
+          <!-- activity -->
+          <div class="activity">
+            <!-- img -->
+            <div class="act-image-wrapper">
+              <img src="images/activity01-image.jpg" alt="" />
+            </div>
+            <!-- calendar,comments -->
+            <div class="meta">
+              <!-- publishied -->
+              <p class="date-published">
+                <i class="far fa-calendar"></i> 2019-12-1
+              </p>
+
+              <p class="comments"><i class="far fa-comments"></i> 33 comments</p>
+            </div>
+            <!-- title -->
+            <h2 class="act-title">ISP Company Provides Internet Access</h2>
+            <!-- 动态内容摘要 -->
+            <article>
+              Internet companies originally referred to ICP companies that provide Internet content services, 
+              ISP companies that provide Internet access, IDC providers that provide content hosting, 
+              as well as wireless access, online games, online videos, online training, and online sales. .
+            </article>
+            <!-- more -->
+            <button class="readmore-btn">more</button>
+          </div>
+          <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="images/watercrafts-on-river-3464632.jpg" alt="" />
+            </div>
+            <div class="meta">
+              <p class="date-published">
+                <i class="far fa-calendar"></i> 2021-6-1
+              </p>
+              <p class="comments"><i class="far fa-comments"></i> 20 comments</p>
+            </div>
+            <h2 class="act-title">Windows 11 pro Setup Sevices</h2>
+            <article>
+              Internet companies originally referred to Windows 11, an Internet content provider that provides Internet services, 
+              Windows 11 that provides Internet access, IDC providers that provide content hosting, 
+              and wireless access, online games, online videos, online training, and online sales. .
+            </article>
+            <button class="readmore-btn">more</button>
+          </div>
+          <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="images/red-suspension-bridge-3493772.jpg" alt="" />
+            </div>
+            <div class="meta">
+              <p class="date-published">
+                <i class="far fa-calendar"></i> 2017-9-1
+              </p>
+              <p class="comments"><i class="far fa-comments"></i> 10 comments</p>
+            </div>
+            <h2 class="act-title">Nas Deployment for companys </h2>
+            <article>
+              Network-attached storage (NAS) is dedicated file storage that enables multiple users and heterogeneous client devices to retrieve data from centralized disk capacity.
+            </article>
+            <button class="readmore-btn">more</button>
+          </div>
+        </div>
+      </section>
+    </div>
+     <!-- footer -->
+     <footer>
+        <!-- menus -->
+        <div class="footer-menus">
+          <!-- contacts -->
+          <div class="contact-us">
+            <p class="menu-title">Contact us</p>
+            <p>Address：10,Rolanbelt,LA</p>
+            <p>TEL：+1 212008834</p>
+            <p>Fax：+1 212008834</p>
+            <p>Email：techcloud@abc.com</p>
+          </div>
+          <!-- nav menu -->
+          <div class="service-menu footer-menu">
+            <p class="menu-title">Sevices</p>
+            <ul class="menu-items">
+              <li><a href="#">Website Setup</a></li>
+              <li><a href="#">Domain Purchase</a></li>
+              <li><a href="#">Wed Design</a></li>
+              <li><a href="#">Mobile Application</a></li>
+            </ul>
+          </div>
+          
+          <div class="showcase-menu footer-menu">
+            <p class="menu-title">Cases</p>
+            <ul class="menu-items">
+              <li><a href="#">Desktop Website</a></li>
+              <li><a href="#">Mobile Website</a></li>
+              <li><a href="#">Science Project</a></li>
+              <li><a href="#">Software Application</a></li>
+            </ul>
+          </div>
+
+          <div class="activity-menu footer-menu">
+            <p class="menu-title">Activities</p>
+            <ul class="menu-items">
+              <li><a href="#">Information Pubilshed</a></li>
+              <li><a href="#">Latest News</a></li>
+              <li><a href="#">Latest Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="help-menu footer-menu">
+            <p class="menu-title">Support</p>
+            <ul class="menu-items">
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Customer Service</a></li>
+              <li><a href="#">Document Source</a></li>
+            </ul>
+          </div>
+          <!-- icp if necessary -->
+         
+          <!-- rights -->
+          <p class="rights">
+            &copy; Copyright @ TechCloud 2019
+          </p>
+          <!-- scroll to top -->
+          <div class="scrollToTop">
+            <a href="#home"><i class="fas fa-chevron-up"></i></a>
+          </div>
+        </div>
+      </footer>
+    <!-- glide -->
+    <script src="libs/glide/glide.min.js"></script>
+    <!-- isotope  -->
+    <script src="libs/isotope/isotope.pkgd.min.js"></script>
+    <!-- anime -->
+    <script src="libs/anime/anime.min.js"></script>
+    <!--smoothscroll -->
+    <script src="libs/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+    
+    <script src="index.js"></script>
+  </body>
+</html>

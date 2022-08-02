@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>漫畫翻譯樣品</h1>
+     <h1>Manga Traslation Demos</h1>
+    <a href="YKSN.html">月刊少女野崎君</a><br>
+    <a href="NTMY.html">很高興認識你</a>
+    <div id="NTMY" class="grid">
+     <div class="column"><img class="ntmy" src="assts/images/NiceToMeetYou/Episode001_EN-CN.png" alt=""></div>
+        <div class="column"><img class="ntmy" src="assts/images/NiceToMeetYou/Episode001_Raw.jpg" alt=""></div>
+    </div>
+    <div class="bar">
+        <a href="#" id="js-scroll-to-top">Back to Top</a>
+      </div>
+      <script>
+        document.querySelector("#js-scroll-to-top").addEventListener("click", (e) => {
+          e.preventDefault();
+          window.scroll({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+          });
+        });
+      </script>
+</body>
+</html>
